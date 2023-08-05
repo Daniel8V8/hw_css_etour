@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>
+      Let Your Imagination Soar! Enchanting Hot Air Balloon Adventures Await!
+    </title>
+    <style>
+      body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: #f0f0f0;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      .rounded-cell {
+        background-color: #ffffff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        padding: 20px;
+      }
+
+      .title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-align: center;
+        color: #3a3636;
+      }
+
+      .image {
+        width: 100%;
+        border-radius: 20px;
+      }
+
+      .description {
+        font-size: 16px;
+        color: #666;
+        text-align: center;
+      }
+
+      .button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        bottom: 10px;
+        right: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <table class="container">
+      <tr>
+        <td class="rounded-cell">
+          <h1 class="title">Experience the Magic of Rio de Janeiro!</h1>
+          <img
+            class="image"
+            src="images/rio-de-janeiro.jpg"
+            alt="rio-de-janeiro"
+          />
+          <p class="description">
+            <i>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta
+              tempore repudiandae enim? Id ex porro vel quam exercitationem! In
+              minus autem sit eius illo mollitia voluptas maiores asperiores
+              reprehenderit architecto. Lorem ipsum dolor, sit amet consectetur
+              adipisicing elit. Atque ratione a fuga laboriosam quaerat totam
+              harum quia nam dolore tempora eveniet id, excepturi delectus
+              nostrum facilis dolorem reiciendis, accusamus iure.
+            </i>
+          </p>
+          <form action="thankyou.html">
+            <fieldset>
+              <legend>Personal Information</legend>
+              <br /><br />
+              <label
+                >Your fullname
+                <input type="text" size="60" name="fullname" />
+              </label>
+              <br />
+              <br />
+              Your phone number
+              <select>
+                <option value="+1">+1 (Statele Unite)</option>
+                <option value="+44">+44 (Marea Britanie)</option>
+                <option value="+49">+49 (Germania)</option>
+                <option value="+33">+33 (Franța)</option>
+              </select>
+              <input type="number" name="phonenumber" />
+              <br />
+              <br />
+              Add your address
+              <select>
+                <option value="US">Statele Unite</option>
+                <option value="UK">Marea Britanie</option>
+                <option value="DE">Germania</option>
+                <option value="FR">Franța</option>
+              </select>
+              <select>
+                <option value="NYC">New York City</option>
+                <option value="LON">Londra</option>
+                <option value="BER">Berlin</option>
+                <option value="PAR">Paris</option>
+              </select>
+              <input type="text" name="country-city-name" />
+              <br />
+              <br />
+              Add your address
+              <input type="email" required name="email" /><br />
+            </fieldset>
+            <div class="container">
+              <button class="button" id="thankyou">NEXT</button>
+            </div>
+          </form>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

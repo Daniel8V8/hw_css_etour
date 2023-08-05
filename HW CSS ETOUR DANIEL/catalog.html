@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Travel Agence</title>
+    <style>
+      body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: #f0f0f0;
+      }
+
+      h2 {
+        text-align: center;
+        color: #666;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .container-1 {
+        display: flex;
+        justify-content: center;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      .list {
+        display: inline;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .list li {
+        margin: 5px;
+      }
+
+      .rounded-cell {
+        background-color: #ffffff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        padding: 20px;
+      }
+
+      .title {
+        font-size: 35px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-align: center;
+        color: #3a3636;
+      }
+
+      .image {
+        width: 100%;
+        border-radius: 20px;
+      }
+
+      .description {
+        font-size: 16px;
+        color: #666;
+        text-align: center;
+      }
+
+      .button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        bottom: 10px;
+        right: 10px;
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <table class="container">
+      <tr>
+        <td class="rounded-cell">
+          <h1 class="title">Travel Agence</h1>
+          <hr />
+          <h2>
+            Let Your Imagination Soar! Enchanting Hot Air Balloon Adventures
+            Await!
+          </h2>
+          <img class="image" src="images/bagam.jpg" alt="bagam" />
+          <p class="description">
+            <i>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta
+              tempore repudiandae enim? Id ex porro vel quam exercitationem! In
+              minus autem sit eius illo mollitia voluptas maiores asperiores
+              reprehenderit architecto.
+            </i>
+          </p>
+
+          <div class="container">
+            <p>
+              <u
+                ><strong> INDIVIDUAL FLIGHT: <i>119 Euro</i></strong></u
+              >
+            </p>
+            <ul class="list">
+              <li>Offer for each individual passenger</li>
+              <li>You do not pay for the entire flight, but only the seat</li>
+              <li>It is recommended for one, two or three people</li>
+              <li>At the end of fly, company offer you a gift certificate</li>
+              <li>
+                The flight will take place only when the group of passengers
+                will be formed
+              </li>
+            </ul>
+
+            <p>
+              <u
+                ><strong> EXCLUSIVE FLIGHT: <i>399 Euro</i></strong></u
+              >
+            </p>
+            <ul class="list">
+              <li>
+                The optimal choice for family flights, corporate events,
+                marriage proposals or for groups of friends
+              </li>
+              <li>
+                Offers maximum freedom in choosing the flight day and period
+              </li>
+              <li>
+                In this offer, fly only with the people you have chosen for the
+                flight
+              </li>
+              <li>
+                The organizers do not include other foreign persons in this type
+                of flight
+              </li>
+            </ul>
+          </div>
+
+          <form class="container-1">
+            <fieldset>
+              <legend>Offer</legend>
+              <br /><br />
+
+              <label>
+                Which offer you choose? <br />
+                <input type="checkbox" name="119" value="119" />199 €
+                <input type="checkbox" name="399" value="399" />399 €
+              </label>
+            </fieldset>
+            <br />
+            <br />
+            <fieldset>
+              <legend>Tickets</legend>
+              <br /><br />
+
+              <label>
+                <u>Available tickets: 48</u> / how much do you want?
+                <input type="number" min="1" max="10" value="1" />
+              </label>
+            </fieldset>
+            <br /><br />
+            <fieldset>
+              <legend>Period</legend>
+              <label
+                >Departure date
+                <br />
+                <input type="date" />
+              </label>
+              <br />
+              <label
+                >Arrival date
+                <br />
+                <input type="date" />
+              </label>
+            </fieldset>
+          </form>
+          <div class="container-1">
+            <a class="button" href="tour1--step2.html">LET`S GO! </a>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="rounded-cell">
+          <h2>Seaside Retreat, Stress Defeat!</h2>
+          <img class="image" src="images/beach.jpg" alt="bagam" />
+          <p class="description">
+            <i>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta
+              tempore repudiandae enim? Id ex porro vel quam exercitationem! In
+              minus autem sit eius illo mollitia voluptas maiores asperiores
+              reprehenderit architecto.
+            </i>
+          </p>
+          <div class="container">
+            <p>
+              <u
+                ><strong> LOW COST: <i>250 Euro</i></strong></u
+              >
+            </p>
+            <ul class="list">
+              <li>Round-trip transport</li>
+              <li>Accommodation for 5 nights</li>
+              <li>1 meal a day</li>
+              <li>Medical insurance</li>
+              <li>Coastal tax</li>
+            </ul>
+            <p>
+              <u
+                ><strong> ALL INCLUSIV: <i>600 Euro</i></strong></u
+              >
+            </p>
+            <ul class="list">
+              <li>Immediate accommodation</li>
+              <li>24/24 reception</li>
+              <li>Access to the swimming pool and aqua park</li>
+              <li>Access to the parking</li>
+            </ul>
+          </div>
+          <form class="container-1">
+            <fieldset>
+              <legend>Offer</legend>
+              <br /><br />
+
+              <label>
+                Which offer you choose? <br />
+                <input type="checkbox" name="250" value="250" />250 €
+                <input type="checkbox" name="600" value="600" />600 €
+              </label>
+            </fieldset>
+            <fieldset>
+              <legend>Rooms</legend>
+              <br /><br />
+
+              <label>
+                <u>Available rooms: 23</u> / how much do you want?
+                <input type="number" min="1" max="10" value="1" />
+              </label>
+            </fieldset>
+            <br /><br />
+            <fieldset>
+              <legend>Period</legend>
+              <label
+                >Departure date
+                <br />
+                <input type="date" />
+              </label>
+              <br />
+              <label
+                >Arrival date
+                <br />
+                <input type="date" />
+              </label>
+            </fieldset>
+          </form>
+          <div class="container-1">
+            <a class="button" href="tour2--step2.html">LET`S GO!</a>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="rounded-cell">
+          <h2>Explore the Rose-Red City: Petra's Majesty!</h2>
+          <img class="image" src="images/petra.jpg" alt="bagam" />
+          <p class="description">
+            <i>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta
+              tempore repudiandae enim? Id ex porro vel quam exercitationem! In
+              minus autem sit eius illo mollitia voluptas maiores asperiores
+              reprehenderit architecto.
+            </i>
+          </p>
+          <div class="container">
+            <p>
+              <u
+                ><strong>3 DAYS / 2 NIGHTS: <i>300 Euro</i></strong></u
+              >
+            </p>
+            <ul class="list">
+              <li>
+                Discover Petra, the fascinating historical site with ancient
+                rock buildings.
+              </li>
+              <li>
+                Walk in the Siq Valley, an impressive and mysterious canyon.
+              </li>
+              <li>
+                Petra by Night, magical atmosphere with candles and local
+                stories.
+              </li>
+              <li>
+                Wadi Rum desert tour, impressive desert landscapes and unique
+                adventures.
+              </li>
+            </ul>
+            <p>
+              <u
+                ><strong>
+                  4 DAYS / 3 NIGHTS:
+                  <i>500 Euro</i></strong
+                ></u
+              >
+            </p>
+            <ul class="list">
+              <li>
+                Visit Petra, the famous historical site with rock-carved
+                buildings
+              </li>
+              <li>
+                Explore the Siq Valley, a fascinating journey through the high
+                canyon
+              </li>
+              <li>
+                Experience Petra by Night, illuminated by candles and
+                traditional stories
+              </li>
+              <li>
+                Day trip to Wadi Rum desert, spectacular scenery and jeep or
+                camel adventures
+              </li>
+            </ul>
+          </div>
+          <form class="container-1">
+            <fieldset>
+              <legend>Offer</legend>
+              <br /><br />
+
+              <label>
+                Which offer you choose? <br />
+                <input type="checkbox" name="300" value="300" />300 €
+                <input type="checkbox" name="500" value="500" />500 €
+              </label>
+            </fieldset>
+            <fieldset>
+              <legend>Rooms</legend>
+              <br /><br />
+
+              <label>
+                <u>Available rooms: 30</u> / how much do you want?
+                <input type="number" min="1" max="10" value="1" />
+              </label>
+            </fieldset>
+            <br /><br />
+            <fieldset>
+              <legend>Period</legend>
+              <label
+                >Departure date
+                <br />
+                <input type="date" />
+              </label>
+              <br />
+              <label
+                >Arrival date
+                <br />
+                <input type="date" />
+              </label>
+            </fieldset>
+          </form>
+          <div class="container-1">
+            <a class="button" href="tour3--step2.html">LET`S GO!</a>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="rounded-cell">
+          <h2>Create Cherished Memories at Popeye Village!</h2>
+          <img class="image" src="images/popeye-village.jpg" alt="bagam" />
+          <p class="description">
+            <i>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta
+              tempore repudiandae enim? Id ex porro vel quam exercitationem! In
+              minus autem sit eius illo mollitia voluptas maiores asperiores
+              reprehenderit architecto.
+            </i>
+          </p>
+          <div class="container">
+            <p>
+              <u
+                ><strong> 2 DAYS / 1 NIGHTS:<i>499 Euro</i></strong></u
+              >
+            </p>
+            <ul class="list">
+              <li>
+                Visit Popeye Village, the original filming location of the
+                famous 'Popeye' movie from the 80s.
+              </li>
+              <li>
+                Take part in themed activities for the whole family, such as
+                encounters with the characters Popeye and Olive Oyl.
+              </li>
+              <li>
+                Explore the beautiful beaches and crystal clear waters nearby,
+                ideal for relaxing and diving.
+              </li>
+              <li>
+                Enjoy a boat tour of spectacular caves and unique rock
+                formations.
+              </li>
+            </ul>
+            <p>
+              <u
+                ><strong> 4 DAYS / 3 NIGHTS: <i>999 Euro</i></strong></u
+              >
+            </p>
+            <ul class="list">
+              <li>
+                Visit Popeye Village, the location of the movie "Popeye", and
+                explore the replica of the picturesque village.
+              </li>
+              <li>
+                Participate in themed activities and meet Popeye characters and
+                his friends.
+              </li>
+              <li>
+                Relax on the nearby fine sand beaches and swim in the crystal
+                clear turquoise waters.
+              </li>
+              <li>
+                Enjoy delicious meals in local restaurants overlooking the sea.
+              </li>
+            </ul>
+          </div>
+          <form class="container-1">
+            <fieldset>
+              <legend>Offer</legend>
+              <br /><br />
+
+              <label>
+                Which offer you choose? <br />
+                <input type="checkbox" name="499" value="499" />499 €
+                <input type="checkbox" name="999" value="999" />999 €
+              </label>
+            </fieldset>
+            <fieldset>
+              <legend>Rooms</legend>
+              <br /><br />
+
+              <label>
+                <u>Available rooms: 25</u> / how much do you want?
+                <input type="number" min="1" max="10" value="1" />
+              </label>
+            </fieldset>
+            <br /><br />
+            <fieldset>
+              <legend>Period</legend>
+              <label
+                >Departure date
+                <br />
+                <input type="date" />
+              </label>
+              <br />
+              <label
+                >Arrival date
+                <br />
+                <input type="date" />
+              </label>
+            </fieldset>
+          </form>
+          <div class="container-1">
+            <a class="button" href="tour4--step2.html">LET`S GO!</a>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="rounded-cell">
+          <h2>Experience the Magic of Rio de Janeiro!</h2>
+          <img class="image" src="images/rio-de-janeiro.jpg" alt="bagam" />
+          <p class="description">
+            <i>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta
+              tempore repudiandae enim? Id ex porro vel quam exercitationem! In
+              minus autem sit eius illo mollitia voluptas maiores asperiores
+              reprehenderit architecto.
+            </i>
+          </p>
+          <div class="container">
+            <p>
+              <u
+                ><strong> 4 DAYS / 3 NIGHTS: <i>799 Euro</i></strong></u
+              >
+            </p>
+            <ul class="list">
+              <li>
+                Christ the Redeemer and City Panorama - Visit the famous Christ
+                the Redeemer statue, an iconic symbol of Rio de Janeiro
+              </li>
+              <li>
+                Copacabana and Ipanema Beaches - Relaxation and fun on the
+                famous beaches of Rio de Janeiro.
+              </li>
+              <li>
+                Visit Pão de Açúcar (Rock Sugar) - Ride the cable car to the top
+                of Pão de Açúcar for a spectacular panorama of the city and
+                Guanabara Bay.
+              </li>
+              <li>
+                Favela Tour - Discover the vibrant life and culture of Rio de
+                Janeiro's favelas
+              </li>
+            </ul>
+
+            <p>
+              <u
+                ><strong> 7 DAYS / 6 NIGHTS: <i>1399 Euro</i></strong></u
+              >
+            </p>
+            <ul class="list">
+              <li>
+                Niterói Museum of Contemporary Art - Visit the spectacular
+                museum designed by architect Oscar Niemeyer
+              </li>
+              <li>
+                Tijuca Forest Walk - Discover the world's largest urban forest
+              </li>
+              <li>
+                Visit Escadaria Selarón - Explore Rio de Janeiro's famous mosaic
+                staircase
+              </li>
+              <li>
+                Experience the local food - Enjoy delicious Brazilian cuisine in
+                traditional restaurants, trying dishes such as feijoada, coxinha
+                or pão de queijo.
+              </li>
+            </ul>
+          </div>
+          <form class="container-1">
+            <fieldset>
+              <legend>Offer</legend>
+              <br /><br />
+
+              <label>
+                Which offer you choose? <br />
+                <input type="checkbox" name="799" value="799" />799 €
+                <input type="checkbox" name="1399" value="1399" />1399 €
+              </label>
+            </fieldset>
+            <fieldset>
+              <legend>Rooms</legend>
+              <br /><br />
+
+              <label>
+                <u>Available rooms: 18</u> / how much do you want?
+                <input type="number" min="1" max="10" value="1" />
+              </label>
+            </fieldset>
+            <br /><br />
+            <fieldset>
+              <legend>Period</legend>
+              <label
+                >Departure date
+                <br />
+                <input type="date" />
+              </label>
+              <br />
+              <label
+                >Arrival date
+                <br />
+                <input type="date" />
+              </label>
+            </fieldset>
+          </form>
+          <div class="container-1">
+            <a class="button" href="tour5--step2.html">LET`S GO!</a>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
